@@ -5,5 +5,6 @@ public class Main {
         ServicioMensajeria servicio = new ServicioMensajeria();
 
         servicio.enviarMensaje(new MensajeroEmail(), "ana@correo.com", "Hola, Ana");
-    }
+        servicio.enviarMensaje(new MensajeroSMS(), "3001234567", "Tu código es 4821");
+        }
 }
